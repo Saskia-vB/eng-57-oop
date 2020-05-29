@@ -2,32 +2,34 @@
 
 ## Acceptance Criteria:
 
-###
+### create class Cat
 class Cat():
 
-    # self refers to the instance of the object
+    # init method has at least five attributes and at least two cat specific attributes
     def __init__(self, name = 'Hiccup'):
         self.name = name
         self.age = 8
-        self.age_in_human_years = 48
+        self.age_in_human_years = 48 # cat specific attribute
         self.fur = 'luxurious black'
-        self.food = 'chicken'
+        self.food = 'chicken' # cat specific attribute
 
-    # this is a method that can be used by a Cat instance
-    def miaow(self):
+    # Cat class has at least five methods with two methods that DO exist in Dog and 2 methods that DO NOT exist in Dog
+    def miaow(self): # NOT in Dog
         return 'miaow, miaow'
 
-    def hiss(self, person = ' '):
-        print('hiss at ' + person)
+    # one method takes in arguments and Polymorphs
 
-    def eat(self, food):
+    def hiss(self, annoying_human = ' '): # NOT in Dog
+        print('hiss at ' + annoying_human)
+
+    def eat(self, food): # IN Dog
         return 'Nom, nom, nom, nom' + food.lower()
 
-    def sleep(self):
+    def sleep(self): # IN Dog
         return 'zzZZZzzZzz ZZzzZZzz'
 
-    def play(self):
+    def play(self): # NOT in Dog
         return "chasing shadows"
 
-    def purr(self):
+    def purr(self): # NOT in Dog
         return "purrrrrrrrrrrrrrrr"
