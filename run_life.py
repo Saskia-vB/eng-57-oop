@@ -9,7 +9,7 @@ max_dog_instance = Dog()
 ringo_dog_instance = Dog('Ringo')
 
 print(max_dog_instance.name)
-print(ringo_dog_instance)
+print(ringo_dog_instance.name)
 # Call the method .bark() on method
 
 
@@ -29,3 +29,4 @@ print('walk the dog home')
 print(max_dog_instance.sleep())
 print(max_dog_instance.sleep())
 print(max_dog_instance.bark("creepy stranger"))
+
