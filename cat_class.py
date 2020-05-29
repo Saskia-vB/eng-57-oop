@@ -1,7 +1,8 @@
-# Abstract and create the class cat
+# OOP Intro Exercise - Create class Cat
 
-# In this file you define the class cat and add attributes and methods to the class
+## Acceptance Criteria:
 
+###
 class Cat():
 
     # self refers to the instance of the object
@@ -16,7 +17,7 @@ class Cat():
     def miaow(self):
         return 'miaow, miaow'
 
-    def hiss(self, person = ' ')):
+    def hiss(self, person = ' '):
         print('hiss at ' + person)
 
     def eat(self, food):
