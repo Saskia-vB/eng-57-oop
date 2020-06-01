@@ -1,4 +1,4 @@
-from cat_class import *
+from animal_class.cat_class import *
 
 hiccup_cat = Cat()
 print(hiccup_cat.name)

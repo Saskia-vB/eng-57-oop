@@ -1,15 +1,18 @@
 # OOP Intro Exercise - Create class Cat
 
-from animal_class import *
+# Cat class will inherit from Animal all the behaviours and characteristic
+import random
+from animal_class.animal_class import *
 
 
 # to inherit pass the entire parent class to your subclass
 class Cat(Animal):
+
     # POLYMORPHISM - calling on parent method to keep both functionalities
-    def __init__(self, name='Toby',owner='Filipe'):
-        super().__init__('small domesticated lion', 4) # this calls parents init method with arguments
-        self.name= name
-        self.owner= owner
+    def __init__(self, name='Garfield',owner='Saskia'):
+        super().__init__('European black cat', 'carnivore') # this calls parents init method with arguments
+        self.name = name
+        self.owner = owner
 
 
     def purr(self, frequency=(random.randint(25,150))):
@@ -21,12 +24,12 @@ class Cat(Animal):
 
 
 # # manually testing our objects
-# gafield= Cat()
-# print(garfield)
-#
-# print(garfield.cat('Lasanhaaa'))
-# print(garfield.sleep())
-# print(garfield.potty())
+garfield = Cat()
+print(garfield)
+
+print(garfield.cat('Lasagnaaa'))
+print(garfield.sleep())
+print(garfield.potty())
 
 
 

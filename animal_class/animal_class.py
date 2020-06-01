@@ -1,8 +1,8 @@
 class Animal():
 
-    def __init__(self, species_argument, limbs):
+    def __init__(self, species_argument, diet):
         self.species_parameter = species_argument
-        self.limbs = limbs
+        self.diet = 'carnivore'
 
 
     def eat(self, food):
@@ -17,9 +17,3 @@ class Animal():
     def reproduce(self, partner='... sorry you are alone at the moment'):
         return f"offspring of {self} and {partner}"
 
-
-# create animal instance
-# animal_1 = Animal()
-#
-# print(animal_1)
-# print(animal_1.eat('KFC'))
