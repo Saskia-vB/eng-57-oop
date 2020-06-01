@@ -36,7 +36,6 @@ class Dog():
         return arg1
 
 
-
 ```
 
 
