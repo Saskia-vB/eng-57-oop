@@ -7,6 +7,10 @@ from dog_class import *
 dog_instance1 = Dog()
 max_dog_instance = Dog()
 ringo_dog_instance = Dog('Ringo')
+#
+# from cat_class import *
+# # initialize a Cat object
+# garfield = Cat(name='Garfield the lasagna monster')
 
 print(max_dog_instance.name)
 print(ringo_dog_instance.name)

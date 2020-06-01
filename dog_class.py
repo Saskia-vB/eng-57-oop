@@ -13,7 +13,7 @@ class Dog():
     # self refers to the instance of the object
     def __init__(self, name = 'Mad Max'):
         self.name = name
-        self.age = 17
+        self.__age = age
         self.paws = 4
         self.fur = 'luxurious black and grey'
 
@@ -36,5 +36,21 @@ class Dog():
     def potty(self):
         return "UHHHH!!! AHHH!! 0_o UHHH!! .... O_O"
 
+    def getter_age(self):
+        return self.__age
+
+    def set_name(self, new_name):
+        self.__name = new_name
+        return True
+
+    def __increase_dog__and_human_years(self):
+        self.__human_age += 1
+        # update dog years
+        self.__age_dog += 7
 
 
+ringo = Dog(name='Ringo')
+
+print(ringo.name)
+# print(ringo.age) # age no longer accessible
+# print(ringo.__age) # age no longer accessible because it's encapsulated/or private

@@ -5,10 +5,22 @@ from animal_class import *
 
 # to inherit pass the entire parent class to your subclass
 class Cat(Animal):
-    'nothing'
+    # POLYMORPHISM - calling on parent method to keep both functionalities
+    def __init__(self, name='Toby',owner='Filipe'):
+        super().__init__('small domesticated lion', 4) # this calls parents init method with arguments
+        self.name= name
+        self.owner= owner
+
+
     def purr(self, frequency=(random.randint(25,150))):
         return f'PuurrrUUUUURRRrrrrUURRrrr and a steady {frequency}'
 
+    # POLYMORPHISM - re-defining method reproduce for subclass cat
+    def reproduce(self):
+        return f"Amazing feline specimen of {self}"
+
+
+# # manually testing our objects
 # gafield= Cat()
 # print(garfield)
 #

@@ -55,7 +55,35 @@ One of the core reasons to use OOP, because it means you write less code. In rea
 - use of inheritance
 
 ### Polymorphism
-- what is class polymorphism
-- what is method polymorphism
+- what is class polymorphism?
+- what is method polymorphism?
+1. completely override parent methods by just redefining them in the subclass
+2. completely override parent methods by just redefining them in the subclass **AND use super() to call parent class and parent method** - keep previous functionality and you add new functionality
+
+### Encapsulation
+- the ability to limit access from the exterior to methods and/or attributes. 
+Hence, making them 'private'.
+```python
+
+class Dog():
+
+    def __init__(self, dog_name, attri2):
+        self.name = attri1,
+        self.attribute_2 = attri2,
+        self.dog_years = 0,
+        self.human_years = 0
+
+    def dog_birthday_incrementer(self):
+        # complex block
+        #  celebrate the dog's bithday 
+        # update human year
+        # update dog years
+        print(f'happy birthday! You are a GOOD BOY! GOOD BOY {self.name}!')
+        return self.dog_years 
+
+```
+
+
+
 
 
