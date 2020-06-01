@@ -6,9 +6,13 @@ class Student_monster(Monster):
         self.student_no = student_no
         self.skill_list = skill_list
 
-    def get_student_no(self):
-        student_no = print(input("Please enter your student number:"))
-        return self.student_no
+    def get_student_no(self, student_no):
+        self.student_no = print(input("Please enter your student number:"))
+        return student_no
+
+    def get_skill_list(self, skill_list):
+        self.skill_list = print(input("Please enter your skills:"))
+        return skill_list
 
 
 
