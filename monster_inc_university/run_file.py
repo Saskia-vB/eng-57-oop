@@ -11,9 +11,9 @@ monster_1 = Monster(name='John P. Sullivan', tax_number='67658', fur='light blue
 
 # ask for input to add a new monster
 
-print(monster_1.get_name(name=''))
-print(monster_1.get_tax_number(tax_number=''))
-print(monster_1.get_fur(fur=''))
+# print(monster_1.get_name(name=''))
+# print(monster_1.get_tax_number(tax_number=''))
+# print(monster_1.get_fur(fur=''))
 
 
 

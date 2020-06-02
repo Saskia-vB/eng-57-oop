@@ -1,6 +1,6 @@
 
 class Course():
-    def __init__(self, module_name='how to scare 101', list_of_students='', start_date='3rd September 2020'):
+    def __init__(self, module_name='how to scare 101', list_of_students=[], start_date='3rd September 2020'):
         self.module_name = module_name
         self.list_of_students = list_of_students
         self.start_date = start_date
