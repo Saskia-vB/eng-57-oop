@@ -1,12 +1,17 @@
 # Intro to OOP
 
-What is OOP
-Why OOP
+What is OOP?
+- Object Oriented Programming
+- a programming paradigm which provides a means of structuring programs so that properties and behaviors are bundled into individual objects.
+- an object could represent a person with a name property, age, address, etc., with behaviors like walking, talking, breathing, and running. Or an email with properties like recipient list, subject, body, etc., and behaviors like adding attachments and sending.
 
-How to OOP
+Why OOP?
+- object-oriented programming is an approach for modeling concrete, real-world things like cars as well as relations between things like companies and employees, students and teachers, etc. OOP models real-world entities as software objects, which have some data associated with them and can perform certain functions.
+
 
 ### Class
 What is a class? A class is like a cookie cutter. The cookie cutter is not the cookie. It's a blueprint for objects but not the object itself. 
+- focusing on the data, each thing or object is an instance of some class. 
 
 What can you do with a cookie? 
     - eat it!
@@ -17,8 +22,10 @@ The actions or how an object behaves.
 So in the above example, .eat_cookie() could be a method inside the class Cookie.
 
 ### Instance
+- while the class is the blueprint, an instance is a copy of the class with actual values, literally an object belonging to a specific class. 
 - occurence
 - is the cookie
+- class is like a form or questionnaire, it defines the needed information but 
 
 ### Syntax
 ```python
