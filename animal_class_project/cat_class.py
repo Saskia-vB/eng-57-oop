@@ -2,7 +2,7 @@
 
 # Cat class will inherit from Animal all the behaviours and characteristic
 import random
-from animal_class.animal_class import *
+from animal_class import *
 
 
 # to inherit pass the entire parent class to your subclass
@@ -27,7 +27,7 @@ class Cat(Animal):
 garfield = Cat()
 print(garfield)
 
-print(garfield.cat('Lasagnaaa'))
+# print(garfield.cat('Lasagnaaa'))
 print(garfield.sleep())
 print(garfield.potty())
 

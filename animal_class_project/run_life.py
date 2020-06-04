@@ -1,8 +1,8 @@
 # import classes here and initialize objects and run methods
 # this separation will maintain your code more organised following separation of concernces
 
-from animal_class.dog_class import Dog
-from animal_class.cat_class import Cat
+from dog_class import Dog
+from cat_class import Cat
 
 # Initialize a Dog object -
 max_dog_instance = Dog(name='Max', age= 5)

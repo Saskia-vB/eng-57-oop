@@ -1,7 +1,7 @@
 # Abstract and create the class dog
 
 
-from animal_class.animal_class import *
+from animal_class import *
 
 class Dog(Animal):
 

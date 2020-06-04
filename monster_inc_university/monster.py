@@ -34,6 +34,11 @@ class Monster():
         return fur
 
 
+
+
+
+
+
 # sully = Monster(name='Sully', tax_number='23343', fur='yes')
 # print(sully.get_name())
 # new_name = input("Please enter your name:")
